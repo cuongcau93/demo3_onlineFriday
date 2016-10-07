@@ -4,7 +4,7 @@
 	height: 40px;
 	position: relative;
     width: 100vw;
-    top: -8px;
+    top: 0px;
     left: -8px;
     color: white;
 }
@@ -42,7 +42,7 @@
 	font-size: 11px;
 	text-align: center;
 	position: relative;
-    top: -24px;
+    top: -15px;
 }
 #hours, #minute, #paper{
 	margin-left: 1px;
@@ -53,4 +53,64 @@
 	position: relative;
     top: -10px;
     color: black;
+}
+.text_header{
+	margin-left: 200px;
+	height: 40px;
+	width: 35%;
+	color: blue;
+	float: left;
+	position: relative;
+    top: -24px;
+}
+a{
+	color: white;
+	text-decoration: none !important;
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+    top: 13px;
+    font-size: 14px;
+}
+
+
+.drash_header{
+	color: white;
+	position: relative;
+    top: 12px;
+}
+.header_web{
+	width: 100%;
+	height: 80px;
+}
+img{
+	margin-left: 200px;
+	height: 70px;
+	width: 14%;
+}
+.col-xs-8{
+	position: relative;
+    top: -53px;
+}
+
+/*.btn{
+	background-color: #e8632c;
+} */
+.btn-default{
+	background-color: #e8632c;
+	border: 1px solid #e8632c;
+	height: 60px;
+	width: 80px;
+
+}
+.dropdown-toggle{
+	background-color: white;
+	border: 1px solid #e8632c;
+	height: 60px;
+
+}
+.form-control{
+	border: 1px solid #e8632c;
+	height: 60px;
+
 }
