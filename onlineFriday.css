@@ -1,0 +1,56 @@
+.header{
+	background-color: #e8632c;
+	width: 100%;
+	height: 40px;
+	position: relative;
+    width: 100vw;
+    top: -8px;
+    left: -8px;
+    color: white;
+}
+.clock span{
+	width: 20px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+}
+.clock{
+	padding: 10px 0;
+	margin-left: 200px;
+}
+.countdown{
+	width: 30%;
+	float: left;
+}
+#date{
+	width: 60px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	margin-left: 25px;
+	position: relative;
+    top: -10px;
+    color: #e8632c;
+}
+#date_number,#hours_number, #minute_number, #paper_number{
+	margin-top: 0px;
+	font-size: 25px;
+	text-align: center;
+}
+#date_text, #hours_text, #minute_text, #paper_text{
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+    top: -24px;
+}
+#hours, #minute, #paper{
+	margin-left: 1px;
+	width: 60px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	position: relative;
+    top: -10px;
+    color: black;
+}
